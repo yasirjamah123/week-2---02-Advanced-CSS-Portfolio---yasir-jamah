@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'poppins', sans-serif;
+    box-sizing:border border-box ;
+}
+body{
+    background: #080808;
+    color: #fff;
+    background-image: url("images/thunder.png");
+    background-size: cover;
+    background-position: 
+} 
+
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/avatar\ 1.png");
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.name {
+    width: 300px;
+} 
+
+nav ul li{
+    display:inline-block ;
+    list-style: none;
+    margin: 15px 25px;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font: 20px;
+    position: relative;
+}
+nav ul li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background: floralwhite;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+} 
+nav ul li a:hover:after{
+    width:100%
+}
+.header-text h1 {
+    font-size: 100px;
+    margin-top: 300px;
+
+}
+.header-text h1 span{
+    color: rgb(255, 217, 0);
+}
+
+#about{
+    padding: 91px 0;
+    color:grey ;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.about-col-1{
+    flex-basis: 38%;
+
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 59%;
+}
+.sub{
+    font-size: 90px;
+    color: #fff;
+}
+
+#projects{
+    padding: 91px 0;
+    color:grey ;
+}
+
+.projects-col img{
+    width: 90%;
+    border-radius: 30px;
+    max-width: 80%;
+ 
+    
+}
+.projects-col{
+    padding: 100px;
+}
+.incomplete-projects img{
+    max-width: 30%;
+    
+}
+.incomplete-projects{
+    padding: 30px ;
+   
+}
