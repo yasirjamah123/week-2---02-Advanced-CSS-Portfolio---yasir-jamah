@@ -1,5 +1,10 @@
 # week-2---02-Advanced-CSS-Portfolio---yasir-jamah
 
+## User Story
+AS AN employer
+I WANT to view a potential employee's deployed portfolio of work samples
+SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+
 ## description
 This website offers two primary areas that together make for an interesting introduction to my abilities and experiences:
 
