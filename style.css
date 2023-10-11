@@ -101,15 +101,15 @@ nav ul li a:hover::after {
     flex-wrap: wrap;
 
 }
-.about-col-1{
+.about-section-img{
     flex-basis: 38%;
 
 }
-.about-col-1 img{
+.about-section-img img{
     width: 100%;
     border-radius: 15px;
 }
-.about-col-2{
+.about-section-txt{
     flex-basis: 59%;
 }
 .sub{
@@ -122,14 +122,14 @@ nav ul li a:hover::after {
     color:grey ;
 }
 
-.projects-col img{
+.projects-section-img img{
     width: 90%;
     border-radius: 30px;
     max-width: 80%;
  
     
 }
-.projects-col{
+.projects-section-img{
     padding: 100px;
 }
 .incomplete-projects img{
