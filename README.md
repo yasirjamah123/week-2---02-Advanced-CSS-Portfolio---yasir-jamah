@@ -18,9 +18,7 @@ This website offers two primary areas that together make for an interesting intr
 
 
 ### Deployment link
-
-
-
+https://yasirjamah123.github.io/week-2---02-Advanced-CSS-Portfolio---yasir-jamah/
 
 ### Screenshots
 ![home page](image.png)
